@@ -1,4 +1,5 @@
 # 🖼️ PDI: Amostragem, Quantização & Transformada de Fourier
+<img width="2507" height="918" alt="image" src="https://github.com/user-attachments/assets/3850b70a-7b88-4dc7-8bd4-d912a591cb53" />
 
 Uma aplicação interativa desenvolvida em **Python** e **Streamlit** para demonstração prática e didática de conceitos fundamentais do **Processamento Digital de Imagens (PDI)**, como amostragem espacial, teorema de Nyquist, aliasing, quantização de intensidade, dithering, subamostragem de crominância e análise no domínio da frequência (FFT).
 
