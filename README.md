@@ -50,5 +50,46 @@ Certifique-se de ter o [Python](https://www.python.org/) instalado em sua máqui
 
 ### 1. Clonar o repositório
 ```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
+```
+
+### 2. Criar e ativar o Ambiente Virtual
+
+**No Linux/macOS:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**No Windows (CMD / PowerShell):**
+```cmd
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Instalar as dependências
+```bash
+pip install streamlit opencv-python matplotlib numpy
+```
+
+### 4. Executar a aplicação Streamlit
+```bash
+streamlit run app.py
+```
+*(Substitua `app.py` pelo nome exato do seu arquivo Python principal, se for diferente).*
+
+Acesse a aplicação no navegador em `http://localhost:8501`.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+├── imagens_teste/        # (Opcional) Pasta com imagens para testes locais
+├── app.py                # Código principal da aplicação Streamlit
+├── .gitignore            # Arquivos ignorados pelo Git
+└── README.md             # Documentação do projeto
+```
+
+---
