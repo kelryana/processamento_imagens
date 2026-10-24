@@ -1,11 +1,11 @@
-# 🖼️ PDI: Amostragem, Quantização & Transformada de Fourier
+# PDI: Amostragem, Quantização & Transformada de Fourier
 <img width="2507" height="918" alt="image" src="https://github.com/user-attachments/assets/3850b70a-7b88-4dc7-8bd4-d912a591cb53" />
 
 Uma aplicação interativa desenvolvida em **Python** e **Streamlit** para demonstração prática e didática de conceitos fundamentais do **Processamento Digital de Imagens (PDI)**, como amostragem espacial, teorema de Nyquist, aliasing, quantização de intensidade, dithering, subamostragem de crominância e análise no domínio da frequência (FFT).
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Múltiplas Fontes de Imagem:**
   - Upload manual de imagens (`JPG`, `PNG`).
@@ -33,7 +33,7 @@ Uma aplicação interativa desenvolvida em **Python** e **Streamlit** para demon
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **[Python 3](https://www.python.org/)** — Linguagem principal
 - **[Streamlit](https://streamlit.io/)** — Interface web interativa
@@ -43,7 +43,7 @@ Uma aplicação interativa desenvolvida em **Python** e **Streamlit** para demon
 
 ---
 
-## 📦 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 Certifique-se de ter o [Python](https://www.python.org/) instalado em sua máquina.
